@@ -1,6 +1,6 @@
 ---
-- name: Install SSH
+- name: Install glusterfs
   include_tasks: install.yml
   
-- name: Setup SSH
+- name: Setup glusterfs
   include_tasks: setup.yml
