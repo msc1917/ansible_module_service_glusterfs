@@ -1,0 +1,14 @@
+---
+- name: Install glusterfs
+  apt:
+    name: [ 'glusterfs-common' ]
+    state: present
+    update_cache: no
+  become: yes
+
+# - name: Install glusterfs-client-package
+#   apt:
+#     name: [ 'glusterfs-client' ]
+#     state: present
+#     update_cache: no
+#   become: yes
